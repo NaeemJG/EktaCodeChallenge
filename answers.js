@@ -24,3 +24,6 @@ return !this.allQuestions.filter(q =>
 // You can loop through the object and use the property name to test whether it's equal to null. Then use the delete keyword to remove that property from the object.
 
 //5. 
+
+// I would use input binding which is essentially when you use inputs to pass data. I was use a property in the header component in file 1 and name it [header]="headerMessage" and pass in the property "headerMessage".
+// In file two I would use an "@Input() header;" to expect the data to be passed as a variable. Import the input operator.  Now I can access this string in the div in file 2 using {{header}} string interpreter. 
